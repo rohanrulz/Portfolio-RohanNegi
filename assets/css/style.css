@@ -17,7 +17,7 @@ header {
     justify-content: space-between;
     flex-wrap: wrap;
     background-color: black;
-    height: 100px;
+    height: 70px;
 }
     
 
@@ -50,7 +50,7 @@ header nav ul {
 header nav ul li a {
     padding: 10px 25px;
     color:  rgb(92, 165, 175);
-    font-size: 22px;
+    font-size: 16px;
     text-decoration: underline;
   }
 
@@ -62,6 +62,7 @@ header nav ul li a {
     width: 100%;
     position: relative;   
 }
+
 .hero-text { 
     font-size: 22px;
     color: black;
@@ -69,15 +70,37 @@ header nav ul li a {
     bottom: 55px;
     right: 80px;
     background-color: rgb(92, 165, 175);
-    padding: 20px;
+    padding: 2px;
+   
+}
 
-    
+.intro {
+  background-color: rgb(226, 222, 236);
+  padding-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+}
+
+.intro h3 {
+  text-align: right;
+  padding-right: 5px;
+  font-size: 22px;
+  color: rgb(62, 62, 175);
+  border-right: 5px solid rgb(62, 62, 175);
+}
+
+.intro p {
+  font-size: 16px;
+  color: rgb(49, 91, 119);
+  padding-left: 10px;
+
 }
 
       
 
 
-  left: 50%;
+  
     
 
 
@@ -85,12 +108,5 @@ header nav ul li a {
 
 
 
-}
-    
-
-
-
-
-}
 
         
