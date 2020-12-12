@@ -12,20 +12,22 @@
   }
 
 header {
-    padding: 20px 35px;
+    padding: 20px 0px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-color: var(--tertiary-color);
+    background-color: black;
     height: 100px;
 }
     
 
 header h1 a {
     font-weight: bold;
-    margin: 0;
+    padding-left: 80px;
     font-size: 36px;
-    color: var(--primary-color);
+    color: black;
+    background-color: rgb(92, 165, 175);
+
 }
 
 header a {
@@ -37,7 +39,7 @@ header nav {
     margin: 7px 0;
   }
 
-  header nav ul {
+header nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -45,11 +47,50 @@ header nav {
     list-style: none;
   } 
 
-  header nav ul li a {
-    padding: 10px 55px;
-    color: var(--secondary-color);
+header nav ul li a {
+    padding: 10px 25px;
+    color:  rgb(92, 165, 175);
     font-size: 22px;
     text-decoration: underline;
   }
+
+.hero {
+    background-image: url("../images/picture-1.jpg");
+    background-size: 100% 100%;
+    background-position: center;
+    height: 400px;
+    width: 100%;
+    position: relative;   
+}
+.hero-text { 
+    font-size: 22px;
+    color: black;
+    position: absolute;
+    bottom: 55px;
+    right: 80px;
+    background-color: rgb(92, 165, 175);
+    padding: 20px;
+
+    
+}
+
+      
+
+
+  left: 50%;
+    
+
+
+   
+
+
+
+}
+    
+
+
+
+
+}
 
         
