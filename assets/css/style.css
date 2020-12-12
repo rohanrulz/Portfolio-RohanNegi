@@ -76,13 +76,15 @@ header nav ul li a {
 
 .portfolio {
   background-color: rgb(226, 222, 236);
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
 }
 
 .intro {
   padding-top: 15px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; 
 }
 
 .intro h3 {
@@ -102,9 +104,8 @@ header nav ul li a {
 .work {
   padding-top: 15px;
   display: flex;
-  flex-wrap: row wrap;
-  justify-content: center; 
-  
+  flex-wrap: wrap;
+    
 
 }
 
@@ -138,6 +139,54 @@ header nav ul li a {
   height: 100%;
   object-fit: cover; 
 }
+
+
+.contact-info {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.contact-info h3 {
+  text-align: right;
+  padding-right: 5px;
+  font-size: 22px;
+  color: rgb(62, 62, 175);
+  border-right: 5px solid rgb(62, 62, 175);
+}
+
+
+
+
+.random {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 16px;
+}
+
+.random h2 {
+  text-decoration: underline;
+  font-size: 16px;
+ }
+
+.random h2 {
+  padding-right: 60px;
+  padding-left: 30px;
+
+}
+
+.facebook {
+  padding-right: 60px;
+
+}
+
+.LinkedIn {
+  padding-right: 60px;
+}
+
+
+
+
 
 
 
