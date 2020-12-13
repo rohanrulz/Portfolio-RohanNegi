@@ -93,6 +93,7 @@ header nav ul li a {
   font-size: 22px;
   color: rgb(62, 62, 175);
   border-right: 5px solid rgb(62, 62, 175);
+  width: 10%;
 }
 
 .intro p {
@@ -101,47 +102,76 @@ header nav ul li a {
   padding-left: 10px;
 }
 
-.work {
+.workstyle {
   padding-top: 15px;
   display: flex;
   flex-wrap: wrap;
-    
-
 }
 
-.work h3 {
+.workstyle h3 {
   text-align: right;
   padding-right: 5px;
-  padding-left: 326px;
   font-size: 22px;
   color: rgb(62, 62, 175);
   border-right: 5px solid rgb(62, 62, 175);
+  width: 10%;
 }
 
-.work-images {
-  padding-left: 10px;
-  display: grid;
-  grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: repeat(8, 1fr);
-  grid-gap: 20px;
-  grid-auto-flow: dense;
+.grid-container {
+    padding-left: 10px;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 5vw);
+    grid-gap: 15px;
+    width: 80%
 }
 
-.grid-item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 5px solid rgba(0, 0, 0, 0.2);
-}
-
-.nice {
+.gallery-image {
   width: 100%;
-  height: 100%;
-  object-fit: cover; 
+  object-fit: cover;
+  height: 100%
+}
+
+
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 5;
+}
+
+
+.item2 {
+  grid-column-start: 5;
+  grid-column-end: 9;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.item3 {
+  grid-column-start: 5;
+  grid-column-end: 9;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+
+.item4 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 5;
+  grid-row-end: 9;
+}
+
+.item5 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 5;
+  grid-row-end: 9;
 }
 
 
 .contact-info {
+  padding-top: 15px;
    display: flex;
    flex-wrap: wrap;
 }
@@ -152,6 +182,7 @@ header nav ul li a {
   font-size: 22px;
   color: rgb(62, 62, 175);
   border-right: 5px solid rgb(62, 62, 175);
+  width: 10%;
 }
 
 
@@ -160,13 +191,20 @@ header nav ul li a {
 .random {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   font-size: 16px;
+  width: 88%;
+  color: rgb(49, 91, 119);
 }
 
 .random h2 {
   text-decoration: underline;
   font-size: 16px;
+  color: rgb(49, 91, 119);
+ }
+
+ .random p {
+  text-decoration: underline;
  }
 
 .random h2 {
@@ -177,11 +215,14 @@ header nav ul li a {
 
 .facebook {
   padding-right: 60px;
+  color: rgb(49, 91, 119);
+  
 
 }
 
 .LinkedIn {
   padding-right: 60px;
+  color: rgb(49, 91, 119);
 }
 
 
