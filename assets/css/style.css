@@ -185,9 +185,6 @@ header nav ul li a {
   width: 10%;
 }
 
-
-
-
 .random {
   display: flex;
   flex-wrap: wrap;
@@ -210,6 +207,7 @@ header nav ul li a {
 .random h2 {
   padding-right: 60px;
   padding-left: 30px;
+  font-weight: normal;
 
 }
 
@@ -220,10 +218,30 @@ header nav ul li a {
 
 }
 
-.LinkedIn {
+.twitter {
   padding-right: 60px;
   color: rgb(49, 91, 119);
 }
+
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+
+  .random {
+    width: 60%
+  }
+
+  .contact-info h3 {
+    font-size: 16px;
+  }
+
+  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+
+  .contact-info h3 {
+    font-size: 12px;
+  }
+
 
 
 
