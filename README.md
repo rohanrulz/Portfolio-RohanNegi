@@ -2,5 +2,5 @@ This website is my Portfolio. It contains some information about myself. it also
 
 link to deployed application - https://rohanrulz.github.io/Portfolio-RohanNegi/
 
-
+screenshot location - ./assets/images/screenshot.jpg
 
